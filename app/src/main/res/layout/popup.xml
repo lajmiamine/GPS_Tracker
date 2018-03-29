@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:background="@color/md_white_1000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/realTimeBtn"
+            android:background="@color/md_grey_600"
+            android:textColor="#ddd"
+            android:layout_marginBottom="16dp"
+            android:text="Real Time Tracking"/>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/historyBtn"
+            android:background="@color/md_grey_600"
+            android:textColor="#ddd"
+            android:text="History"/>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stopCarBtn"
+            android:background="@color/md_red_700"
+            android:textColor="#ddd"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            android:text="Stop Car"/>
+
+    </LinearLayout>
+</LinearLayout>

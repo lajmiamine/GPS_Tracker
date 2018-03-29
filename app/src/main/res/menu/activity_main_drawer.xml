@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@drawable/ic_action_home"
+            android:title="Overview" />
+
+        <item
+            android:id="@+id/nav_real_time"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Vehicles info" />
+
+        <item
+            android:id="@+id/nav_alerts"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Alerts" />
+
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_action_content_inbox"
+            android:title="Log out" />
+    </group>
+
+</menu>
